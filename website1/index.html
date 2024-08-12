@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--iconawesome -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>  <!--iconbox -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <!-- tage ajaxe dgal jquery -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+   <!--tag header for new menu and icon-->
+  <header>
+     <nav>WEB MOVI </nav>
+     <div class="menu-icon">
+        <ul>
+            <li>Home</li>
+            <li>Store</li>
+            <li>Video</li>
+            <li>Photo</li>
+            <li>About</li>
+            <li>Account
+                <div class="new-a">
+                <ul>
+                   <li><a href="mobail"><i class="fa fa-phone" aria-hidden="true" style="color: green;"></i></a></li>
+                    <li><a href="./"><i class="fa fa-snapchat-ghost" aria-hidden="true" style="color: yellowgreen;"></i></a></li>
+                    <li><a href="./"><i class="fa fa-instagram" aria-hidden="true" style="color: red; font-weight: bolder;"></i></a></li>
+                    <li><a href="./"><i class="fa fa-times" aria-hidden="true" style="color: black;"></i></a></li>
+                    <li><a href="mailto:adhamzebari40@gmail.com"><i class="fa fa-share" aria-hidden="true"></i></a></li>
+                </ul>
+                </div>
+            </li>
+            <li><i class="fa fa-video-camera" aria-hidden="true"></i></li>
+        </ul>
+     </div>
+  </header>
+
+             <!-- tag for image one  -->
+  <footer>
+      <div class="set-image">
+            <img src="image/MV5BNzRlMzU5ZjMtYWM5Yy00ZmYxLWI0MjYtNmU2OTM3MGIyNjg1XkEyXkFqcGc@._V1_QL75_UY281_CR1,0,190,281_.jpg" alt="">
+            <img src="image/in-in.jpg" alt="">
+            <img src="image/MV5BZjk1ZWQ2NTctNDM3Yi00MmU1LThlZTktZGQyOTIzNzUwNjIxXkEyXkFqcGdeQXVyMjM3MzQ2OTg@._V1_FMjpg_UX1000_.jpg" alt="">
+            <img src="image/K.A.A/brothers.jpg" alt="">
+      </div>
+      <div class="set-text">
+        <p style="margin-left: 20px;">
+            WEBApr 25, 2024 · <br> Two friends travel back in time to 1941 and witness <br>the battles at Saur-Mogila.
+             <br>They must decide whether to stay and <br>  help or return to their own era in this … <br>
+            5.5/10(105) <br>
+            Genre: History, Sci-Fi, War <br>
+            Director: Mark Gorobets <br>
+            Release Date: 2024-04-25
+        </p>
+         <p>
+            Director: Roland Emmerich <br>
+            Writer: Wes Tooke <br>
+            Stars: Ed Skrein,Patrick Wilson,Woody Harrelson <br>
+            Genre: Action, Drama, History <br>
+            Release Date: 2019-11-08 <br>
+            The story of the Battle of Midway, <br> told by the leaders and the sailors who fought it.
+         </p>
+         <p style="padding: 6px;"> 
+            Director: Dave Bresnahan, Weston Childers <br>
+            Writer: Dave Bresnahan, Mark J. Nelson <br>
+            Stars: Casey Elliott, Caleb Hafen, Dustin Harding <br>
+            Genre: War <br>
+            Release Date: 2023-09-11 <br>
+            The horrors of war through the eyes of a real WWII soldier, <br>
+            Sam Byrne was a Wyoming ranch boy who was <br> drafted and went off to war to do his duty,
+            <br>in spite of the fact that  he didn't want <br> to "haf'ta kill unless I really haf'ta."
+         </p>
+         <p>
+            Director: Tomas Masin <br>
+            Writer: Marek Epstein, Barbara Masin <br>
+            Stars: Oskar Hes, Jan Nedbal, Adam Ernest <br>
+            Genre: Action, Drama, History <br>
+            Release Date: 2023-10-26 <br>
+            Adaptation of controversial real-life story from the 1950s. <br>
+         </p>
+      </div>
+  </footer>
+  <br>
+  <br>
+  <br>
+  <hr>
+
+     <!-- tag for slide show-->
+    <h1>new slide movei animation <br> click the image to see the movei</h1>
+  <div class="slideshow-container">
+    <img src="image/K.A.A/R (1).jpg" style="display: block;" id="wene1">
+    <img src="image/K.A.A/OIP (6).jpg" style="display: none;" id="wene2">
+    <img src="image/K.A.A/OIP (4).jpg" style="display: none;" id="wene3">
+    <img src="image/K.A.A/th.jpg" style="display: none;" id="wene4">
+  </div>
+  
+  <br> 
+  <hr>
+   <!-- tag for image with text-->
+    <h2>new slide to see <br> the moveis</h2>
+   <div class="image-with-text">
+      <br>
+       <span>CLICK THE IMAGE</span>
+       <div class="slide-show-image">
+           <img src="image/wellthmeth.jpg" alt="" onclick="rsm(this)">
+           <img src="image/girl-monke.jpg" alt="" onclick="rsm(this)">
+           <img src="image/shroxan.jpg" alt="" onclick="rsm(this)">
+           <p onclick="tex(this)" style="display: none;">
+            Director: Nag Ashwin <br>
+            Writer: Nag Ashwin <br>
+            Stars: Prabhas, Amitabh Bachchan, Kamal Haasan <br>
+            Genre: Action, Adventure, Drama <br>
+            Release Date: 2024-06-27 <br>
+            A modern-day avatar of Vishnu, a Hindu god, who is believed to have <br>
+            descended to earth to protect the world from evil forces.
+           </p>
+           <img src="image/sher.jpg" alt="" onclick="rsm(this)">
+           <p onclick="tex(this)" style="display: none;" id="textex">
+            Director: Denis Villeneuve <br>
+            Writer: Denis Villeneuve, Jon Spaihts, Frank Herbert <br>
+            Stars: Timothée Chalamet, Zendaya, Rebecca Ferguson <br>
+            Genre: Action, Adventure, Drama <br>
+            Release Date: 2024-03-01 <br>
+            Paul Atreides unites with Chani and the Fremen while seeking revenge <br> 
+            against the conspirators who destroyed his family.
+           </p>
+       </div>
+
+       <div class="image-big">
+         <img id="wena">
+         <p id="tex">Director: Adil El Arbi, Bilall Fallah <br>
+            Writer: Chris Bremner, Will Beall, George Gallo <br>
+            Stars: Will Smith, Martin Lawrence, Vanessa Hudgens <br>
+            Genre: Action, Adventure, Comedy <br>
+            Release Date: 2024-06-07 <br>
+            This Summer, the world's favorite Bad Boys are back with their iconic mix <br>
+            of edge-of-your seat action and outrageous comedy but this time with a twist:
+            Miami's finest are now on the run.</p>
+       </div>
+   </div>
+   
+  <script>
+   function wene1() {
+      setTimeout(function(){
+         document.getElementById('wene1').style.display = 'block';
+         document.getElementById('wene2').style.display = 'none';
+         document.getElementById('wene3').style.display = 'none';
+         document.getElementById('wene4').style.display = 'none';
+         wene2();
+      }, 3000);
+   }
+   wene1();
+
+   function wene2() {
+      setTimeout(function(){
+         document.getElementById('wene1').style.display = 'none';
+         document.getElementById('wene2').style.display = 'block';
+         document.getElementById('wene3').style.display = 'none';
+         document.getElementById('wene4').style.display = 'none';
+         wene3();
+      }, 3000);
+   }
+   function wene3() {
+      setTimeout(function(){
+         document.getElementById('wene1').style.display = 'none';
+         document.getElementById('wene2').style.display = 'none';
+         document.getElementById('wene3').style.display = 'block';
+         document.getElementById('wene4').style.display = 'none';
+         wene4();
+      }, 3000);
+   }
+   function wene4() {
+      setTimeout(function(){
+         document.getElementById('wene1').style.display = 'none';
+         document.getElementById('wene2').style.display = 'none';
+         document.getElementById('wene3').style.display = 'none';
+         document.getElementById('wene4').style.display = 'block';
+         wene1();
+      }, 3000);
+   }
+
+   function rsm(img) {
+         document.getElementById('wena').src = img.src;
+   }
+
+   $(document).ready(function(){
+      $('#wena').click(function(){
+         $('#tex').slideToggle();
+      });
+   });
+  </script>
+
+       <!--linke botstrabe ye js-->
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+</body>
+</html>

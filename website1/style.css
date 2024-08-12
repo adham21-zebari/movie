@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+     background-color: rgb(134, 2, 2);
+ }
+ header{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: black;
+     color: white;
+ }
+ .menu-icon ul{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ .menu-icon ul li{
+     list-style-type: none;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+     font-size: larger;
+     padding: 12px;
+     width: 120px;
+ }
+ .menu-icon ul li:hover{
+     color: rgba(255, 255, 255, 0.63);
+ }
+ nav{
+     font-size: x-large;
+     color: rgba(255, 255, 255, 0.625);
+     padding: 10px;
+ }
+ .new-a{
+     display: none;
+ }
+ .new-a ul{
+     display: none;
+ }
+ .menu-icon ul li:hover .new-a{
+     display: block;
+     position: absolute;
+ }
+ .menu-icon ul li:hover .new-a ul{
+     display: block;
+ }
+ .menu-icon ul li:hover .new-a ul li{
+     list-style-type: none;
+     margin: 10px;
+     padding: 10px;
+     background-color: #f2f2f2;
+     border-radius: 10px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+     color: black;
+ }
+ .menu-icon ul li:hover .new-a ul li:hover{
+     background-color: #e1e1e2;
+ }
+ .set-image{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .set-image img{
+     width: 22%;
+     height: 450px;
+     margin: 18px;
+     margin-top: 30px;
+     border-radius: 15px;
+     box-shadow: 0 0 10px rgba(0, 0, 5, 10);
+     transition: transform 0.3s ease-in-out;
+    
+ 
+     &:hover{
+         transform: scale(1.1);
+     }
+ }
+ .set-text{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .set-text p{
+     font-size: 14px;
+     color: white;
+     background-color: rgba(193, 6, 6, 0.77);
+     text-align: center;
+     padding: 8px;
+     border-radius: 15px;
+     width: 60%;
+     height: 250px;
+     margin: 25px;
+     font-family: Arial, Helvetica, sans-serif;
+     line-height: 1.5;
+     margin-bottom: 80px;
+ }
+ .slideshow-container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .slideshow-container img{
+     width: 100%;
+     height: 600px;
+     margin: 10px;
+     border-radius: 15px;
+     box-shadow: 0 0 10px rgba(0, 0, 5, 10);
+     transition: transform 0.3s ease-in-out;
+ }
+ h1{
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+     font-size: x-large;
+     margin-top: 50px;
+     margin-bottom: 12px;
+     opacity: 0.8;
+      
+     &:hover{
+         opacity: 1;
+     }
+ }
+ h2{
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+     font-size: xx-large;
+     margin-top: 22px;
+     margin-bottom: 12px;
+     opacity: 0.8;
+      
+     &:hover{
+         opacity: 1;
+     }
+ }
+ .image-with-text{
+     background-image: url('image/war-war.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     width: 100%;
+     height: 850px;
+     margin-top: 12px;
+ }
+ .image-with-text span{
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: xx-large;
+     font-weight: bolder;
+     margin-left: 600px;
+     box-shadow: 0 1px 10px rgba(0, 0, 5, 10);
+     padding: 2px;
+     border-radius: 6px;
+ }
+ .slide-show-image{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .slide-show-image img{
+     width: 16%;
+     height: 220px;
+     margin: 10px;
+     border-radius: 15px;
+     box-shadow: 0 0 10px rgba(0, 0, 5, 10);
+     transition: transform 0.3s ease-in-out;
+ }
+ .image-big{
+     width: 30%;
+     height: 550px;
+     margin-left: 235px;
+     border-radius: 15px;
+ }
+ .image-big img{
+     width: 100%;
+     height: 350px;
+     border-radius: 15px;
+ }
+ .image-big p{
+     display: none;
+     background-color: red;
+     color: white;
+     padding: 10px;
+     margin-top: -5px;
+     border-radius: 15px;
+     font-family: Arial, Helvetica, sans-serif;
+     line-height: 1.3;
+ }
